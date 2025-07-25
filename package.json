@@ -1,0 +1,21 @@
+{
+  "name": "functional-ui-automation-react",
+  "version": "1.0.0",
+  "description": "Functional UI automation testing framework using Playwright for React applications",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test --project=${npm_config_suite}",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": ["playwright", "automation", "testing", "ui", "react"],
+  "author": "Nikola Klacar",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "eslint": "^9.31.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
