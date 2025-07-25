@@ -10,6 +10,12 @@ import {
   validProductDataV2 as data2,
 } from "../../data/product.js"
 
+/**
+ * Note: Due to limitations on the demo website (products cannot be created, edited, or deleted),
+ * certain test data is included as comments next to the relevant methods. 
+ * You can use this data to manually adjust and run the tests in order to observe a successful pass.
+ */
+
 let loginPage, sideBarComponent, productsList, createProduct
 
 const testPhoto1 = path.join(process.cwd(), "data/test_photo_1.jpg"),
